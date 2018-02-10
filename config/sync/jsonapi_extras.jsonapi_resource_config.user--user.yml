@@ -15,11 +15,11 @@ path: users
 resourceType: users
 resourceFields:
   uid:
+    disabled: true
     fieldName: uid
     publicName: internalId
     enhancer:
       id: ''
-    disabled: false
   uuid:
     disabled: true
     fieldName: uuid
@@ -45,11 +45,11 @@ resourceFields:
     enhancer:
       id: ''
   name:
+    disabled: true
     fieldName: name
     publicName: name
     enhancer:
       id: ''
-    disabled: false
   pass:
     disabled: true
     fieldName: pass
@@ -57,53 +57,53 @@ resourceFields:
     enhancer:
       id: ''
   mail:
+    disabled: true
     fieldName: mail
     publicName: mail
     enhancer:
       id: ''
-    disabled: false
   timezone:
+    disabled: true
     fieldName: timezone
     publicName: timezone
     enhancer:
       id: ''
-    disabled: false
   status:
+    disabled: true
     fieldName: status
     publicName: isActive
     enhancer:
       id: ''
-    disabled: false
   created:
+    disabled: true
     fieldName: created
     publicName: createdAt
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   changed:
+    disabled: true
     fieldName: changed
     publicName: updatedAt
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   access:
+    disabled: true
     fieldName: access
     publicName: access
     enhancer:
       id: ''
-    disabled: false
   login:
+    disabled: true
     fieldName: login
     publicName: lastLogin
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   init:
     disabled: true
     fieldName: init
@@ -111,14 +111,32 @@ resourceFields:
     enhancer:
       id: ''
   roles:
+    disabled: true
     fieldName: roles
     publicName: roles
     enhancer:
       id: ''
-    disabled: false
   default_langcode:
     disabled: true
     fieldName: default_langcode
     publicName: default_langcode
     enhancer:
       id: ''
+  user_description:
+    fieldName: user_description
+    publicName: user_description
+    enhancer:
+      id: ''
+    disabled: false
+  user_subtitle:
+    fieldName: user_subtitle
+    publicName: user_subtitle
+    enhancer:
+      id: ''
+    disabled: false
+  user_title:
+    fieldName: user_title
+    publicName: user_title
+    enhancer:
+      id: ''
+    disabled: false
