@@ -1,0 +1,21 @@
+uuid: 13c8cfef-62a1-48a0-bee0-0beae2c73c0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_subtitle
+  module:
+    - text
+    - user
+id: user.user.user_subtitle
+field_name: user_subtitle
+entity_type: user
+bundle: user
+label: 'User subtitle'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

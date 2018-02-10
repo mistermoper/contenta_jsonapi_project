@@ -1,0 +1,68 @@
+uuid: e9e4e12d-7bff-4c98-8eb6-9268ac960aca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_description
+    - field.field.user.user.user_image
+    - field.field.user.user.user_subtitle
+    - field.field.user.user.user_title
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  language:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  user_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  user_subtitle:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  user_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: 4533b00c-253c-45e7-9c86-94f9047f3216
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_description
+  module:
+    - text
+    - user
+id: user.user.user_description
+field_name: user_description
+entity_type: user
+bundle: user
+label: 'User description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 1030e0e3-5128-43a5-8c17-adeb39fc228d
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.user_description
+field_name: user_description
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
