@@ -784,4 +784,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 }
 $settings['install_profile'] = 'contenta_jsonapi';
 
-$config_directories['sync'] = 'config/sync';
+$config_directories['sync'] = '../config/sync';
