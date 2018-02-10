@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: xteAqCSLNzQ7yj3mZ2o4zDmEbeklo5fOv8tSFF2JCR0
 id: user_role--user_role
-disabled: false
+disabled: true
 path: roles
 resourceType: roles
 resourceFields:
@@ -20,9 +20,39 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  weight:
-    fieldName: weight
-    publicName: weight
+  uuid:
+    disabled: true
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  dependencies:
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+    disabled: false
+  third_party_settings:
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+    disabled: false
+  _core:
+    fieldName: _core
+    publicName: _core
     enhancer:
       id: ''
     disabled: false
@@ -32,33 +62,21 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  revision:
-    disabled: true
-    fieldName: revision
-    publicName: revision
-    enhancer:
-      id: ''
-  bundle:
-    fieldName: bundle
-    publicName: bundle
+  weight:
+    fieldName: weight
+    publicName: weight
     enhancer:
       id: ''
     disabled: false
-  langcode:
-    disabled: true
-    fieldName: langcode
-    publicName: langcode
+  is_admin:
+    fieldName: is_admin
+    publicName: is_admin
     enhancer:
       id: ''
-  default_langcode:
-    disabled: true
-    fieldName: default_langcode
-    publicName: default_langcode
+    disabled: false
+  permissions:
+    fieldName: permissions
+    publicName: permissions
     enhancer:
       id: ''
-  uuid:
-    disabled: true
-    fieldName: uuid
-    publicName: uuid
-    enhancer:
-      id: ''
+    disabled: false

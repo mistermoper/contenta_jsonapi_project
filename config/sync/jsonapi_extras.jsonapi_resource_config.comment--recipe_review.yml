@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: logbA_ufvgCk3DnJzU7SnvZ6uQMI2fbfiPznjWRPbW4
 id: comment--recipe_review
-disabled: false
+disabled: true
 path: reviews
 resourceType: reviews
 resourceFields:

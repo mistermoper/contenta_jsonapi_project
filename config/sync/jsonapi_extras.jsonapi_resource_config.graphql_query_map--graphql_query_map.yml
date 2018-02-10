@@ -1,37 +1,32 @@
-uuid: e6f7ecdb-e0f9-41be-9588-3d5778a7825d
+uuid: 1c0bade1-fa2d-428f-aa2a-6857a66e3ab5
 langcode: en
 status: true
 dependencies:
-  enforced:
-    module:
-      - recipes_magazin_contenta
   module:
-    - image
-_core:
-  default_config_hash: s9l5U_Xwk87WUzSwmZv5AOS3TA_bIgl3cugjtE3yg24
-id: image_style--image_style
+    - graphql
+id: graphql_query_map--graphql_query_map
 disabled: true
-path: imageStyles
-resourceType: imageStyles
+path: graphql_query_map/graphql_query_map
+resourceType: graphql_query_map--graphql_query_map
 resourceFields:
-  name:
-    fieldName: name
-    publicName: name
+  version:
+    fieldName: version
+    publicName: version
     enhancer:
       id: ''
     disabled: false
   uuid:
-    disabled: true
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
+    disabled: false
   langcode:
-    disabled: true
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
+    disabled: false
   status:
     fieldName: status
     publicName: status
@@ -56,15 +51,9 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  label:
-    fieldName: label
-    publicName: label
-    enhancer:
-      id: ''
-    disabled: false
-  effects:
-    fieldName: effects
-    publicName: effects
+  queryMap:
+    fieldName: queryMap
+    publicName: queryMap
     enhancer:
       id: ''
     disabled: false

@@ -15,11 +15,11 @@ path: categories
 resourceType: categories
 resourceFields:
   tid:
+    disabled: true
     fieldName: tid
     publicName: internalId
     enhancer:
       id: ''
-    disabled: false
   uuid:
     disabled: true
     fieldName: uuid
@@ -53,25 +53,25 @@ resourceFields:
         path: value
     disabled: false
   weight:
+    disabled: true
     fieldName: weight
     publicName: weight
     enhancer:
       id: ''
-    disabled: false
   parent:
+    disabled: true
     fieldName: parent
     publicName: parent
     enhancer:
       id: ''
-    disabled: false
   changed:
+    disabled: true
     fieldName: changed
     publicName: updatedAt
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   default_langcode:
     disabled: true
     fieldName: default_langcode
@@ -79,8 +79,8 @@ resourceFields:
     enhancer:
       id: ''
   path:
+    disabled: true
     fieldName: path
     publicName: path
     enhancer:
       id: ''
-    disabled: false

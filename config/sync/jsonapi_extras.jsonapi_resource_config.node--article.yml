@@ -15,11 +15,11 @@ path: articles
 resourceType: articles
 resourceFields:
   nid:
+    disabled: true
     fieldName: nid
     publicName: internalId
     enhancer:
       id: ''
-    disabled: false
   uuid:
     disabled: true
     fieldName: uuid
@@ -44,52 +44,6 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  status:
-    fieldName: status
-    publicName: isPublished
-    enhancer:
-      id: ''
-    disabled: false
-  title:
-    fieldName: title
-    publicName: title
-    enhancer:
-      id: ''
-    disabled: false
-  uid:
-    fieldName: uid
-    publicName: owner
-    enhancer:
-      id: ''
-    disabled: false
-  created:
-    fieldName: created
-    publicName: createdAt
-    enhancer:
-      id: date_time
-      settings:
-        dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
-  changed:
-    fieldName: changed
-    publicName: updatedAt
-    enhancer:
-      id: date_time
-      settings:
-        dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
-  promote:
-    fieldName: promote
-    publicName: isPromoted
-    enhancer:
-      id: ''
-    disabled: false
-  sticky:
-    disabled: true
-    fieldName: sticky
-    publicName: sticky
-    enhancer:
-      id: ''
   revision_timestamp:
     disabled: true
     fieldName: revision_timestamp
@@ -108,10 +62,50 @@ resourceFields:
     publicName: revision_log
     enhancer:
       id: ''
-  revision_translation_affected:
+  status:
     disabled: true
-    fieldName: revision_translation_affected
-    publicName: revision_translation_affected
+    fieldName: status
+    publicName: isPublished
+    enhancer:
+      id: ''
+  title:
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    disabled: true
+    fieldName: uid
+    publicName: owner
+    enhancer:
+      id: ''
+  created:
+    disabled: true
+    fieldName: created
+    publicName: createdAt
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sO'
+  changed:
+    disabled: true
+    fieldName: changed
+    publicName: updatedAt
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sO'
+  promote:
+    disabled: true
+    fieldName: promote
+    publicName: isPromoted
+    enhancer:
+      id: ''
+  sticky:
+    disabled: true
+    fieldName: sticky
+    publicName: sticky
     enhancer:
       id: ''
   default_langcode:
@@ -120,12 +114,18 @@ resourceFields:
     publicName: default_langcode
     enhancer:
       id: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
   path:
+    disabled: true
     fieldName: path
     publicName: path
     enhancer:
       id: ''
-    disabled: false
   body:
     fieldName: body
     publicName: body
@@ -135,11 +135,11 @@ resourceFields:
         path: value
     disabled: false
   comment:
+    disabled: true
     fieldName: comment
     publicName: comment
     enhancer:
       id: ''
-    disabled: false
   field_image:
     fieldName: field_image
     publicName: image

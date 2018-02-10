@@ -15,11 +15,11 @@ path: images
 resourceType: images
 resourceFields:
   mid:
+    disabled: true
     fieldName: mid
     publicName: internalId
     enhancer:
       id: ''
-    disabled: false
   uuid:
     disabled: true
     fieldName: uuid
@@ -33,11 +33,11 @@ resourceFields:
     enhancer:
       id: ''
   bundle:
+    disabled: true
     fieldName: bundle
     publicName: mediaType
     enhancer:
       id: ''
-    disabled: false
   langcode:
     disabled: true
     fieldName: langcode
@@ -57,33 +57,33 @@ resourceFields:
       id: ''
     disabled: false
   uid:
+    disabled: true
     fieldName: uid
     publicName: owner
     enhancer:
       id: ''
-    disabled: false
   status:
+    disabled: true
     fieldName: status
     publicName: isPublished
     enhancer:
       id: ''
-    disabled: false
   created:
+    disabled: true
     fieldName: created
     publicName: createdAt
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   changed:
+    disabled: true
     fieldName: changed
     publicName: updatedAt
     enhancer:
       id: date_time
       settings:
         dateTimeFormat: 'Y-m-d\TH:i:sO'
-    disabled: false
   revision_timestamp:
     disabled: true
     fieldName: revision_timestamp
@@ -106,6 +106,18 @@ resourceFields:
     disabled: true
     fieldName: default_langcode
     publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: true
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  path:
+    disabled: true
+    fieldName: path
+    publicName: path
     enhancer:
       id: ''
   field_image:

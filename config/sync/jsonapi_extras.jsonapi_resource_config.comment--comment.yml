@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: _PgBjom8ykcddjigC8O-w_yAOrogN7FvZUqYReGYblw
 id: comment--comment
-disabled: false
+disabled: true
 path: comments
 resourceType: comments
 resourceFields:

@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: rIS4HHaBhmtpRF_-8i061_5-vXnpLsk_ho-tQ01z40s
 id: media_bundle--media_bundle
-disabled: false
+disabled: true
 path: mediaBundles
 resourceType: mediaBundles
 resourceFields:
@@ -20,39 +20,81 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  label:
-    fieldName: label
-    publicName: label
-    enhancer:
-      id: ''
-    disabled: false
-  revision:
-    disabled: true
-    fieldName: revision
-    publicName: revision
-    enhancer:
-      id: ''
-  bundle:
-    fieldName: bundle
-    publicName: bundle
-    enhancer:
-      id: ''
-    disabled: false
-  langcode:
-    disabled: true
-    fieldName: langcode
-    publicName: langcode
-    enhancer:
-      id: ''
-  default_langcode:
-    disabled: true
-    fieldName: default_langcode
-    publicName: default_langcode
-    enhancer:
-      id: ''
   uuid:
     disabled: true
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
+  langcode:
+    disabled: true
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  dependencies:
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+    disabled: false
+  third_party_settings:
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+    disabled: false
+  _core:
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+    disabled: false
+  label:
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+    disabled: false
+  description:
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+    disabled: false
+  type:
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+    disabled: false
+  queue_thumbnail_downloads:
+    fieldName: queue_thumbnail_downloads
+    publicName: queue_thumbnail_downloads
+    enhancer:
+      id: ''
+    disabled: false
+  new_revision:
+    fieldName: new_revision
+    publicName: new_revision
+    enhancer:
+      id: ''
+    disabled: false
+  type_configuration:
+    fieldName: type_configuration
+    publicName: type_configuration
+    enhancer:
+      id: ''
+    disabled: false
+  field_map:
+    fieldName: field_map
+    publicName: field_map
+    enhancer:
+      id: ''
+    disabled: false

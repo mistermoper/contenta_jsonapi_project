@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: k7wG0GUVkQCHw6uGzFQaMJHv0u5t-HE0CNre1GIYD6A
 id: menu_link_content--menu_link_content
-disabled: false
+disabled: true
 path: menuLinks
 resourceType: menuLinks
 resourceFields:
@@ -62,7 +62,7 @@ resourceFields:
     enhancer:
       id: nested
       settings:
-        path: uri
+        path: value
     disabled: false
   external:
     fieldName: external
