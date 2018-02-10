@@ -1,0 +1,21 @@
+uuid: 1e4a46a0-b4b7-4bbc-9ec1-0ee2d9c9e3e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.user_name
+field_name: user_name
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

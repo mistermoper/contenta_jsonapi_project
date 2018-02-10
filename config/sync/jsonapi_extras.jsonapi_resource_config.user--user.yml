@@ -128,6 +128,24 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  user_image:
+    fieldName: user_image
+    publicName: user_image
+    enhancer:
+      id: ''
+    disabled: false
+  user_name:
+    fieldName: user_name
+    publicName: user_name
+    enhancer:
+      id: ''
+    disabled: false
+  user_social_links:
+    fieldName: user_social_links
+    publicName: user_social_links
+    enhancer:
+      id: ''
+    disabled: false
   user_subtitle:
     fieldName: user_subtitle
     publicName: user_subtitle

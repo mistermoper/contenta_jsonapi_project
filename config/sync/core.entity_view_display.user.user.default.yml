@@ -5,10 +5,13 @@ dependencies:
   config:
     - field.field.user.user.user_description
     - field.field.user.user.user_image
+    - field.field.user.user.user_name
+    - field.field.user.user.user_social_links
     - field.field.user.user.user_subtitle
     - field.field.user.user.user_title
   module:
     - image
+    - link
     - text
     - user
 id: user.user.default
@@ -34,6 +37,26 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  user_name:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  user_social_links:
+    weight: 12
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
     region: content
   user_subtitle:
     weight: 9
