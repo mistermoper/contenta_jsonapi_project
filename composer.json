@@ -19,7 +19,9 @@
         "webflo/drupal-core-strict": "8.4.2",
         "drush/drush": "~8.1.12",
         "drupal/admin_toolbar": "^1.23",
-        "drupal/config_update": "^1.5"
+        "drupal/config_update": "^1.5",
+        "drupal/link_attributes": "^1.2",
+        "drupal/devel": "^1.2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
