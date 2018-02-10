@@ -7,7 +7,6 @@ dependencies:
     - node.type.article
     - node.type.embeddable
     - node.type.page
-    - node.type.recipe
 _core:
   default_config_hash: CTXmauU9Mh-aTw0ynsotL43hBQef0uPz97RFtwVkcB4
 id: node.embeddable.reference
@@ -26,7 +25,6 @@ settings:
     target_bundles:
       article: article
       page: page
-      recipe: recipe
     sort:
       field: _none
     auto_create: false
