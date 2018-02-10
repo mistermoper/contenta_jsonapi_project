@@ -1,0 +1,9 @@
+uuid: fba10b70-58ee-4ae3-a3b5-6b9fde72e299
+langcode: en
+status: true
+dependencies: {  }
+id: api_consumer
+label: 'Api consumer'
+weight: 5
+is_admin: null
+permissions: {  }
