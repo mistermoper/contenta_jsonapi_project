@@ -11,5 +11,6 @@ permissions:
   - 'access jsonapi resource list'
   - 'access openapi api docs'
   - 'access toolbar'
+  - 'access user profiles'
   - 'issue subrequests'
   - 'view media'
